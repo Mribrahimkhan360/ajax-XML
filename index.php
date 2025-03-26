@@ -11,6 +11,6 @@
     <div id="objID">Search results will appear here</div>
     <input type="text" onkeyup="makerequest(this.value)" name="">
 
-<script src="assets/js/application.js" type="text/javascript"></script>
+    <script src="assets/js/application.js" type="text/javascript"></script>
 </body>
 </html>
