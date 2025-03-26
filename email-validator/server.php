@@ -11,10 +11,12 @@ $number1 = $_GET['number1'];
 // 	echo '<br/>';
 // 	echo 'Sub : '.$number1-$number2;
 // }
-$data = array('$','A','g','#','%','C','T','I');
+$haystack = array('mribrahimkhan360@gmail.com');
 
-for ($i=0; $i < $number1; $i++) { 
-	$rand = rand(0,6);
-	echo $data[$rand];
+if (in_array($number1, $haystack)) {
+	echo "eamil already exist!";
+}
+else{
+	echo 'email is not fonud!';
 }
 ?>
